@@ -1,0 +1,17 @@
+.tech-stack-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-stack-section ul {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-stack-section p {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 140px;
+}
+

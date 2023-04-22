@@ -1,30 +1,5 @@
-.container {
-    max-width: 1230px;
-    margin: 0 auto;
-}
+@import "reset.css";
+@import "font.css";
+@import "common.css";
+@import "components/main.css";
 
-.header {
-    display: flex;
-    justify-content: space-between;
-}
-
-.hero-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.tech-stack-section ul {
-    display: flex;
-}
-
-.projects-section .inner {
-    display: flex;
-    justify-content: space-between;
-}
-.projects-section .inner article {
-    width: 30%;
-}
-
-.footer .info {
-    display: flex;
-}
