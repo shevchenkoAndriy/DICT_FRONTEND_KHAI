@@ -1,0 +1,26 @@
+.experience-card__item {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #EBEAED;
+}
+
+.experience-card__subtitle {
+    margin-bottom: 10px;
+}
+
+.experience-card__company, .experience-card__date {
+    display: flex;
+    align-items: center;
+}
+
+.experience-card__icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.experience-card__type {
+    margin-bottom: 10px;
+}

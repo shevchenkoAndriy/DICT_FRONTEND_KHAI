@@ -1,0 +1,11 @@
+.rounded-box.green {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#018C0F;
+    background-color: #D7FFE0;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 26px;
+}
