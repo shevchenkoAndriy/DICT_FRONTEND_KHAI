@@ -10,7 +10,8 @@
     margin-bottom: 10px;
 }
 
-.experience-card__company, .experience-card__date {
+.experience-card__company,
+.experience-card__date {
     display: flex;
     align-items: center;
 }
@@ -23,4 +24,25 @@
 
 .experience-card__type {
     margin-bottom: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .experience-card__item {
+        flex-direction: column;
+    }
+
+    .experience-card__info {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .experience-card__type {
+        min-width: 100px
+    }
+
+    .experience-card__type {
+        margin-bottom: 0px;
+    }
 }

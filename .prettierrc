@@ -4,8 +4,5 @@
   "printWidth": 145,
   "singleQuote": true,
   "trailingComma": "all",
-  "arrowParens": "avoid",
-  "jsxSingleQuote": true,
-  "importOrder": ["^@mui/(.*)$","^assets/(.*)$","^components/(.*)$","^hocs/(.*)$","^hooks/(.*)$","^interfaces/(.*)$","^redux/(.*)$", "^screens/(.*)$","^theme/(.*)$","^utils/(.*)$","^[./]" ],
-  "importOrderCaseInsensitive": true
+  "arrowParens": "avoid"
 }

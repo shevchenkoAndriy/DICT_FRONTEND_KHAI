@@ -4,7 +4,7 @@
 }
 
 .nav .list .item {
-    margin-right: 60px;
+    margin-right: 20px;
 }
 
 .nav .list .item:last-child {
@@ -15,4 +15,11 @@
     font-size: 20px;
     font-weight: 500;
     font-family: DM_Sans, sans-serif, Arial;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .nav .list .item {
+        margin-right: 60px;
+    }
 }
