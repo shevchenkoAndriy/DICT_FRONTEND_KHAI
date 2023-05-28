@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-
+    scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <link rel="stylesheet" href="./css/main.css">
     <title>Portfolio</title>
 </head>
@@ -15,6 +17,8 @@
         <!-- Header Section starts -->
 
         <header class="header">
+            <div class="overlay"></div>
+
             <a href="" class="logo">
                 <img src="./img/svg/logo.svg" alt="">
             </a>
@@ -55,6 +59,11 @@
                     </a>
                 </li>
             </ul>
+            <button class="nav-btn">
+                <span class="nav-btn-line"></span>
+                <span class="nav-btn-line"></span>
+                <span class="nav-btn-line"></span>
+            </button>
         </header>
 
         <!-- Header Section ends -->
@@ -90,9 +99,8 @@
                 <li>
                     <img src="./img/svg/html.svg" alt="">
                 </li>
-                <li>
-                    <img src="./img/svg/css.svg" alt="">
-                </li>
+
+
             </ul>
         </section>
 
@@ -303,6 +311,7 @@
         <!-- Footer ends -->
 
     </div>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
